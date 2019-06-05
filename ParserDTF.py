@@ -8,7 +8,6 @@ import csv
 def get_full_page(link):
     driver = webdriver.Chrome("chromedriver")
     driver.get(link)
-    i=0
     pause_time = 3
     last_height = driver.execute_script("return document.body.scrollHeight")
     while True:
@@ -18,9 +17,6 @@ def get_full_page(link):
         if new_height == last_height:
             break
         last_height = new_height
-        if i == 1000:
-            break
-        i+=1
     time.sleep(pause_time)
     soup = BeautifulSoup(driver.page_source, "lxml")
     return soup
@@ -82,7 +78,7 @@ def get_variables(html):
 
 
 def write_to_file(variables):
-    i = 0;
+    i = 0
     name_of_rows = {1: 'likes', 2: 'coms', 3: 'favs', 4: 'size'}
     for variable in variables:
         with open('main.tsv', 'a') as f:
@@ -97,10 +93,8 @@ def write_to_file(variables):
                              variable['comments'],
                              variable['favorite'],
                              variable['size']))
-            # print(variable['likes'], variable['comments'], variable['favorite'], variable['size'])
+
 
 link = 'https://dtf.ru'
-#link = 'https://dtf.ru/u/3351-vadim-elistratov'
-# link = 'https://dtf.ru/u/10527-semen-kostin'
 page = get_full_page(link)
 write_to_file(get_variables(page))
