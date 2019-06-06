@@ -575,6 +575,7 @@
       <w>Cars93</w>
       <w>Cefamandole</w>
       <w>ChangeLog</w>
+      <w>ChickEgg</w>
       <w>ChickWeight</w>
       <w>Chile</w>
       <w>Chirot</w>
@@ -762,11 +763,15 @@
       <w>Loblolly</w>
       <w>Logic</w>
       <w>MASS</w>
+      <w>MATCH</w>
+      <w>MATCH.default</w>
+      <w>MATCH.times</w>
       <w>MISSING</w>
       <w>MOats</w>
       <w>Machines</w>
       <w>Mammals</w>
       <w>Mandel</w>
+      <w>Mandible</w>
       <w>Manova</w>
       <w>Map</w>
       <w>MapGen2SL</w>
@@ -811,6 +816,8 @@
       <w>Null</w>
       <w>OBrienKaiser</w>
       <w>OME</w>
+      <w>ORDER</w>
+      <w>ORDER.default</w>
       <w>Oats</w>
       <w>OlsonNames</w>
       <w>Ops</w>
@@ -1090,6 +1097,8 @@
       <w>Sys.umask</w>
       <w>Sys.unsetenv</w>
       <w>Sys.which</w>
+      <w>Sys.yearmon</w>
+      <w>Sys.yearqtr</w>
       <w>T</w>
       <w>T2graph</w>
       <w>TVPACK</w>
@@ -1116,6 +1125,7 @@
       <w>USAccDeaths</w>
       <w>USArrests</w>
       <w>USCounties</w>
+      <w>USDistLag</w>
       <w>USJudgeRatings</w>
       <w>USMortality</w>
       <w>USPersonalExpenditure</w>
@@ -1490,6 +1500,7 @@
       <w>`contrasts&lt;-`</w>
       <w>`coordinates&lt;-`</w>
       <w>`coordnames&lt;-`</w>
+      <w>`coredata&lt;-`</w>
       <w>`covariate&lt;-`</w>
       <w>`diag&lt;-`</w>
       <w>`digits&lt;-`</w>
@@ -1505,10 +1516,12 @@
       <w>`f_rhs&lt;-`</w>
       <w>`field&lt;-`</w>
       <w>`formals&lt;-`</w>
+      <w>`frequency&lt;-`</w>
       <w>`fullgrid&lt;-`</w>
       <w>`functionBody&lt;-`</w>
       <w>`geometry&lt;-`</w>
       <w>`gridded&lt;-`</w>
+      <w>`index&lt;-`</w>
       <w>`is.na&lt;-.default`</w>
       <w>`is.na&lt;-.factor`</w>
       <w>`is.na&lt;-.numeric_version`</w>
@@ -1566,6 +1579,7 @@
       <w>`tclvalue&lt;-.default`</w>
       <w>`tclvalue&lt;-.tclVar`</w>
       <w>`tclvalue&lt;-`</w>
+      <w>`time&lt;-`</w>
       <w>`tktitle&lt;-`</w>
       <w>`tsp&lt;-`</w>
       <w>`units&lt;-.difftime`</w>
@@ -1768,6 +1782,9 @@
       <w>as.Date.default</w>
       <w>as.Date.factor</w>
       <w>as.Date.numeric</w>
+      <w>as.Date.ts</w>
+      <w>as.Date.yearmon</w>
+      <w>as.Date.yearqtr</w>
       <w>as.IDate</w>
       <w>as.ITime</w>
       <w>as.POSIXct</w>
@@ -1936,6 +1953,14 @@
       <w>as.vector</w>
       <w>as.vector.factor</w>
       <w>as.xts.data.table</w>
+      <w>as.yearmon</w>
+      <w>as.yearmon.default</w>
+      <w>as.yearqtr</w>
+      <w>as.yearqtr.default</w>
+      <w>as.zoo</w>
+      <w>as.zoo.default</w>
+      <w>as.zooreg</w>
+      <w>as.zooreg.default</w>
       <w>asDateBuilt</w>
       <w>asMethodDefinition</w>
       <w>asNamespace</w>
@@ -2003,6 +2028,7 @@
       <w>autoload</w>
       <w>autoloader</w>
       <w>autoplot</w>
+      <w>autoplot.zoo</w>
       <w>av.plot</w>
       <w>av.plots</w>
       <w>avPlot</w>
@@ -2088,6 +2114,7 @@
       <w>bg_red</w>
       <w>bg_white</w>
       <w>bg_yellow</w>
+      <w>bgtest</w>
       <w>bibentry</w>
       <w>bibstyle</w>
       <w>bigcity</w>
@@ -2118,6 +2145,7 @@
       <w>bobyqa</w>
       <w>body</w>
       <w>bold</w>
+      <w>bondyield</w>
       <w>boot</w>
       <w>boot.array</w>
       <w>boot.ci</w>
@@ -2147,6 +2175,7 @@
       <w>boxplot.matrix</w>
       <w>boxplot.stats</w>
       <w>boxx</w>
+      <w>bptest</w>
       <w>bpy.colors</w>
       <w>bquote</w>
       <w>brambles</w>
@@ -2245,6 +2274,7 @@
       <w>cbind.Spatial</w>
       <w>cbind.data.frame</w>
       <w>cbind.matrix.csr</w>
+      <w>cbind.zoo</w>
       <w>cbind2</w>
       <w>cbreaks</w>
       <w>ccf</w>
@@ -2399,7 +2429,11 @@
       <w>coef.nlrq</w>
       <w>coef.slm</w>
       <w>coefHier</w>
+      <w>coefci</w>
+      <w>coefci.default</w>
       <w>coefficients</w>
+      <w>coeftest</w>
+      <w>coeftest.default</w>
       <w>coerce</w>
       <w>col</w>
       <w>col.whitebg</w>
@@ -2585,6 +2619,8 @@
       <w>corSpatial</w>
       <w>corSpher</w>
       <w>corSymm</w>
+      <w>coredata</w>
+      <w>coredata.default</w>
       <w>corr</w>
       <w>correlogram</w>
       <w>corresp</w>
@@ -2609,6 +2645,7 @@
       <w>coxph.detail</w>
       <w>coxph.fit</w>
       <w>coxph.wtest</w>
+      <w>coxtest</w>
       <w>cpairs</w>
       <w>cparcoord</w>
       <w>cpgram</w>
@@ -2661,6 +2698,7 @@
       <w>curl_symbols</w>
       <w>curl_unescape</w>
       <w>curl_version</w>
+      <w>currencysubstitution</w>
       <w>current.column</w>
       <w>current.panel.limits</w>
       <w>current.parent</w>
@@ -2969,6 +3007,7 @@
       <w>dweibull</w>
       <w>dwilcox</w>
       <w>dwt</w>
+      <w>dwtest</w>
       <w>dyn.load</w>
       <w>dyn.unload</w>
       <w>dynGet</w>
@@ -3020,6 +3059,7 @@
       <w>enc2utf8</w>
       <w>encodeString</w>
       <w>encoded_text_to_latex</w>
+      <w>encomptest</w>
       <w>end</w>
       <w>end.dynrq</w>
       <w>endsWith</w>
@@ -3125,6 +3165,7 @@
       <w>f_unwrap</w>
       <w>fac2Sparse</w>
       <w>fac2sparse</w>
+      <w>facet_free</w>
       <w>facet_grid</w>
       <w>facet_null</w>
       <w>facet_wrap</w>
@@ -3292,6 +3333,7 @@
       <w>format.packageInfo</w>
       <w>format.pval</w>
       <w>format.summaryDefault</w>
+      <w>format.yearqtr</w>
       <w>formatC</w>
       <w>formatDL</w>
       <w>formatOL</w>
@@ -3312,6 +3354,7 @@
       <w>formula.nlrq</w>
       <w>formula.rq</w>
       <w>fortify</w>
+      <w>fortify.zoo</w>
       <w>forwardsolve</w>
       <w>fourfoldplot</w>
       <w>foverlaps</w>
@@ -3344,6 +3387,7 @@
       <w>fsetequal</w>
       <w>fsort</w>
       <w>ftable</w>
+      <w>ftemp</w>
       <w>full.score</w>
       <w>fullgrid</w>
       <w>fullseq</w>
@@ -3357,6 +3401,7 @@
       <w>fwf_positions</w>
       <w>fwf_widths</w>
       <w>fwrite</w>
+      <w>fyff</w>
       <w>gEdit</w>
       <w>gEditList</w>
       <w>gList</w>
@@ -3649,6 +3694,7 @@
       <w>glue_data_col</w>
       <w>glue_data_sql</w>
       <w>glue_sql</w>
+      <w>gmdc</w>
       <w>gnls</w>
       <w>gnlsControl</w>
       <w>gnlsStruct</w>
@@ -3656,10 +3702,13 @@
       <w>gpar</w>
       <w>gpclibPermit</w>
       <w>gpclibPermitStatus</w>
+      <w>gqtest</w>
       <w>grDevices</w>
       <w>grSoftVersion</w>
       <w>grad</w>
       <w>gradient_n_pal</w>
+      <w>grangertest</w>
+      <w>grangertest.default</w>
       <w>graph2T</w>
       <w>graphics</w>
       <w>graphics.off</w>
@@ -3766,6 +3815,7 @@
       <w>groupedData</w>
       <w>grouping</w>
       <w>groupingsets</w>
+      <w>growthofmoney</w>
       <w>gss_cat</w>
       <w>gsub</w>
       <w>gsummary</w>
@@ -3808,6 +3858,7 @@
       <w>handle_setform</w>
       <w>handle_setheaders</w>
       <w>handle_setopt</w>
+      <w>harvtest</w>
       <w>hasArg</w>
       <w>hasLoadAction</w>
       <w>hasMethod</w>
@@ -3865,6 +3916,7 @@
       <w>histogram</w>
       <w>history</w>
       <w>hmac</w>
+      <w>hmctest</w>
       <w>hms</w>
       <w>hms_trans</w>
       <w>hour</w>
@@ -3897,6 +3949,7 @@
       <w>ie_get_proxy_for_url</w>
       <w>ie_proxy_info</w>
       <w>ifelse</w>
+      <w>ifelse.zoo</w>
       <w>image</w>
       <w>image.default</w>
       <w>image2Grid</w>
@@ -3914,7 +3967,9 @@
       <w>in.out</w>
       <w>inSide</w>
       <w>in_gamut</w>
+      <w>index</w>
       <w>index.dynrq</w>
+      <w>index2char</w>
       <w>indices</w>
       <w>infIndexPlot</w>
       <w>inferno</w>
@@ -3970,6 +4025,7 @@
       <w>invisible</w>
       <w>invokeRestart</w>
       <w>invokeRestartInteractively</w>
+      <w>ip</w>
       <w>iris</w>
       <w>iris3</w>
       <w>is</w>
@@ -4052,6 +4108,7 @@
       <w>is.raw</w>
       <w>is.readable</w>
       <w>is.recursive</w>
+      <w>is.regular</w>
       <w>is.relistable</w>
       <w>is.scalar</w>
       <w>is.shingle</w>
@@ -4072,6 +4129,7 @@
       <w>is.unsorted</w>
       <w>is.vector</w>
       <w>is.writeable</w>
+      <w>is.zoo</w>
       <w>isBalanced</w>
       <w>isBaseNamespace</w>
       <w>isClass</w>
@@ -4139,11 +4197,13 @@
       <w>jacobian</w>
       <w>jagam</w>
       <w>jitter</w>
+      <w>jocci</w>
       <w>join</w>
       <w>join.keys</w>
       <w>join_all</w>
       <w>joint_tests</w>
       <w>jpeg</w>
+      <w>jtest</w>
       <w>julian</w>
       <w>julian.Date</w>
       <w>julian.POSIXt</w>
@@ -4271,6 +4331,7 @@
       <w>lgamma</w>
       <w>lh</w>
       <w>lht</w>
+      <w>lhur</w>
       <w>libcurlVersion</w>
       <w>library</w>
       <w>library.dynam</w>
@@ -4327,6 +4388,7 @@
       <w>lmerTest</w>
       <w>lmer_alt</w>
       <w>lmsreg</w>
+      <w>lmtest</w>
       <w>lmwork</w>
       <w>load</w>
       <w>loadMethod</w>
@@ -4423,6 +4485,8 @@
       <w>lqs</w>
       <w>lqs.formula</w>
       <w>lrect</w>
+      <w>lrtest</w>
+      <w>lrtest.default</w>
       <w>ls</w>
       <w>ls.diag</w>
       <w>ls.print</w>
@@ -4472,6 +4536,7 @@
       <w>make.link</w>
       <w>make.names</w>
       <w>make.packages.html</w>
+      <w>make.par.list</w>
       <w>make.rgb</w>
       <w>make.socket</w>
       <w>make.tran</w>
@@ -4576,6 +4641,7 @@
       <w>meanvar</w>
       <w>median</w>
       <w>median.default</w>
+      <w>median.zoo</w>
       <w>median_hilow</w>
       <w>medpolish</w>
       <w>melanoma</w>
@@ -4606,6 +4672,7 @@
       <w>merge</w>
       <w>merge.data.frame</w>
       <w>merge.default</w>
+      <w>merge.zoo</w>
       <w>mergeCells</w>
       <w>mergeMethods</w>
       <w>merge_element</w>
@@ -4673,6 +4740,7 @@
       <w>modifyList</w>
       <w>modulus_trans</w>
       <w>mona</w>
+      <w>moneydemand</w>
       <w>mono.con</w>
       <w>month</w>
       <w>month.abb</w>
@@ -4715,13 +4783,29 @@
       <w>myeloid</w>
       <w>n2mfrow</w>
       <w>n_fields</w>
+      <w>na.StructTS</w>
       <w>na.action</w>
+      <w>na.aggregate</w>
+      <w>na.aggregate.default</w>
+      <w>na.approx</w>
+      <w>na.approx.default</w>
       <w>na.contiguous</w>
       <w>na.exclude</w>
       <w>na.fail</w>
+      <w>na.fill</w>
+      <w>na.fill.default</w>
+      <w>na.fill0</w>
+      <w>na.locf</w>
+      <w>na.locf.default</w>
+      <w>na.locf0</w>
       <w>na.omit</w>
       <w>na.pass</w>
       <w>na.rpart</w>
+      <w>na.spline</w>
+      <w>na.spline.default</w>
+      <w>na.trim</w>
+      <w>na.trim.default</w>
+      <w>na.trim.ts</w>
       <w>na_tag</w>
       <w>name_rows</w>
       <w>names</w>
@@ -5000,6 +5084,10 @@
       <w>panel.levelplot.raster</w>
       <w>panel.linejoin</w>
       <w>panel.lines</w>
+      <w>panel.lines.its</w>
+      <w>panel.lines.tis</w>
+      <w>panel.lines.ts</w>
+      <w>panel.lines.zoo</w>
       <w>panel.link.splom</w>
       <w>panel.lmline</w>
       <w>panel.loess</w>
@@ -5007,18 +5095,36 @@
       <w>panel.number</w>
       <w>panel.pairs</w>
       <w>panel.parallel</w>
+      <w>panel.plot.custom</w>
+      <w>panel.plot.default</w>
       <w>panel.pointLabel</w>
       <w>panel.points</w>
+      <w>panel.points.its</w>
+      <w>panel.points.tis</w>
+      <w>panel.points.ts</w>
+      <w>panel.points.zoo</w>
       <w>panel.pointsplot</w>
       <w>panel.polygon</w>
+      <w>panel.polygon.its</w>
+      <w>panel.polygon.tis</w>
+      <w>panel.polygon.ts</w>
+      <w>panel.polygon.zoo</w>
       <w>panel.polygonsplot</w>
       <w>panel.qq</w>
       <w>panel.qqmath</w>
       <w>panel.qqmathline</w>
       <w>panel.rect</w>
+      <w>panel.rect.its</w>
+      <w>panel.rect.tis</w>
+      <w>panel.rect.ts</w>
+      <w>panel.rect.zoo</w>
       <w>panel.refline</w>
       <w>panel.rug</w>
       <w>panel.segments</w>
+      <w>panel.segments.its</w>
+      <w>panel.segments.tis</w>
+      <w>panel.segments.ts</w>
+      <w>panel.segments.zoo</w>
       <w>panel.smooth</w>
       <w>panel.smoothScatter</w>
       <w>panel.spline</w>
@@ -5028,6 +5134,10 @@
       <w>panel.superpose.2</w>
       <w>panel.superpose.plain</w>
       <w>panel.text</w>
+      <w>panel.text.its</w>
+      <w>panel.text.tis</w>
+      <w>panel.text.ts</w>
+      <w>panel.text.zoo</w>
       <w>panel.tmd.default</w>
       <w>panel.tmd.qqmath</w>
       <w>panel.violin</w>
@@ -5113,6 +5223,7 @@
       <w>person</w>
       <w>personList</w>
       <w>persp</w>
+      <w>petest</w>
       <w>petrol</w>
       <w>pexp</w>
       <w>pf</w>
@@ -5164,6 +5275,7 @@
       <w>plot.ts</w>
       <w>plot.window</w>
       <w>plot.xy</w>
+      <w>plot.zoo</w>
       <w>plotViewport</w>
       <w>plot_closest</w>
       <w>plot_hex</w>
@@ -5423,6 +5535,7 @@
       <w>pvalue</w>
       <w>pvalue_format</w>
       <w>pvec</w>
+      <w>pw561</w>
       <w>pweibull</w>
       <w>pwilcox</w>
       <w>pwpp</w>
@@ -5482,6 +5595,7 @@
       <w>quakes</w>
       <w>qualitative_hcl</w>
       <w>quantile</w>
+      <w>quantile.zoo</w>
       <w>quantreg</w>
       <w>quantregLine</w>
       <w>quarter</w>
@@ -5511,6 +5625,7 @@
       <w>ra_ref</w>
       <w>rainbow</w>
       <w>rainbow_hcl</w>
+      <w>raintest</w>
       <w>raise_to_power</w>
       <w>rand</w>
       <w>random.effects</w>
@@ -5552,6 +5667,7 @@
       <w>rbind.fill</w>
       <w>rbind.fill.matrix</w>
       <w>rbind.matrix.csr</w>
+      <w>rbind.zoo</w>
       <w>rbind2</w>
       <w>rbindlist</w>
       <w>rbinom</w>
@@ -5571,11 +5687,15 @@
       <w>read.arff</w>
       <w>read.asciigrid</w>
       <w>read.csv</w>
+      <w>read.csv.zoo</w>
       <w>read.csv2</w>
+      <w>read.csv2.zoo</w>
       <w>read.dbf</w>
       <w>read.dcf</w>
       <w>read.delim</w>
+      <w>read.delim.zoo</w>
       <w>read.delim2</w>
+      <w>read.delim2.zoo</w>
       <w>read.dta</w>
       <w>read.epiinfo</w>
       <w>read.fortran</w>
@@ -5589,8 +5709,10 @@
       <w>read.ssd</w>
       <w>read.systat</w>
       <w>read.table</w>
+      <w>read.table.zoo</w>
       <w>read.xlsx</w>
       <w>read.xport</w>
+      <w>read.zoo</w>
       <w>readAsciiGrid</w>
       <w>readBin</w>
       <w>readChar</w>
@@ -5742,6 +5864,7 @@
       <w>reset</w>
       <w>resetClass</w>
       <w>resetGeneric</w>
+      <w>resettest</w>
       <w>reshape</w>
       <w>reshape2</w>
       <w>resid</w>
@@ -5770,6 +5893,7 @@
       <w>returnValue</w>
       <w>rev</w>
       <w>rev.default</w>
+      <w>rev.zoo</w>
       <w>revalue</w>
       <w>reverse_trans</w>
       <w>reweightPred</w>
@@ -5806,6 +5930,20 @@
       <w>rnorm</w>
       <w>road</w>
       <w>rock</w>
+      <w>rollapply</w>
+      <w>rollapplyr</w>
+      <w>rollmax</w>
+      <w>rollmax.default</w>
+      <w>rollmaxr</w>
+      <w>rollmean</w>
+      <w>rollmean.default</w>
+      <w>rollmeanr</w>
+      <w>rollmedian</w>
+      <w>rollmedian.default</w>
+      <w>rollmedianr</w>
+      <w>rollsum</w>
+      <w>rollsum.default</w>
+      <w>rollsumr</w>
       <w>rollup</w>
       <w>rotifer</w>
       <w>round</w>
@@ -6003,6 +6141,8 @@
       <w>scale_x_reverse</w>
       <w>scale_x_sqrt</w>
       <w>scale_x_time</w>
+      <w>scale_x_yearmon</w>
+      <w>scale_x_yearqtr</w>
       <w>scale_y_continuous</w>
       <w>scale_y_date</w>
       <w>scale_y_datetime</w>
@@ -6011,6 +6151,8 @@
       <w>scale_y_reverse</w>
       <w>scale_y_sqrt</w>
       <w>scale_y_time</w>
+      <w>scale_y_yearmon</w>
+      <w>scale_y_yearqtr</w>
       <w>scales</w>
       <w>scan</w>
       <w>scat</w>
@@ -7335,6 +7477,7 @@
       <w>undebugcall</w>
       <w>underline</w>
       <w>undoc</w>
+      <w>unemployment</w>
       <w>unhandled_ctl</w>
       <w>union</w>
       <w>unionSpatialPolygons</w>
@@ -7425,6 +7568,7 @@
       <w>validate_that</w>
       <w>validate_tibble</w>
       <w>value_slice</w>
+      <w>valueofstocks</w>
       <w>vapply</w>
       <w>var</w>
       <w>var.linear</w>
@@ -7553,7 +7697,10 @@
       <w>vpStack</w>
       <w>vpTree</w>
       <w>waders</w>
+      <w>wages</w>
       <w>waiver</w>
+      <w>waldtest</w>
+      <w>waldtest.default</w>
       <w>walkCode</w>
       <w>warnErrList</w>
       <w>warn_lossy_cast</w>
@@ -7667,6 +7814,7 @@
       <w>write.socket</w>
       <w>write.table</w>
       <w>write.xlsx</w>
+      <w>write.zoo</w>
       <w>writeAsciiGrid</w>
       <w>writeBin</w>
       <w>writeChar</w>
@@ -7704,6 +7852,8 @@
       <w>xDetails</w>
       <w>xalign</w>
       <w>xaxisGrob</w>
+      <w>xblocks</w>
+      <w>xblocks.default</w>
       <w>xclara</w>
       <w>xdigits</w>
       <w>xdisplay</w>
@@ -7738,6 +7888,7 @@
       <w>xtfrm.difftime</w>
       <w>xtfrm.factor</w>
       <w>xtfrm.numeric_version</w>
+      <w>xtfrm.zoo</w>
       <w>xy.coords</w>
       <w>xyTable</w>
       <w>xyVector</w>
@@ -7752,6 +7903,10 @@
       <w>yaxisGrob</w>
       <w>yday</w>
       <w>year</w>
+      <w>yearmon</w>
+      <w>yearmon_trans</w>
+      <w>yearqtr</w>
+      <w>yearqtr_trans</w>
       <w>yellow</w>
       <w>yinch</w>
       <w>yjPower</w>
@@ -7780,6 +7935,8 @@
       <w>ziplss</w>
       <w>zipr</w>
       <w>zipr_append</w>
+      <w>zoo</w>
+      <w>zooreg</w>
     </words>
   </dictionary>
 </component>

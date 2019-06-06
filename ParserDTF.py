@@ -61,6 +61,8 @@ def get_variables(html):
             likes = int(likes)
         except ValueError:
             likes = 0
+        except AttributeError:
+            likes = 0
         try:
             comments = elem.find("span", class_="comments_counter__count__value l-inline-block l-va-middle").text
             comments = comments.replace(" ", '')
@@ -78,23 +80,23 @@ def get_variables(html):
 
 
 def write_to_file(variables):
-    i = 0
-    name_of_rows = {1: 'likes', 2: 'coms', 3: 'favs', 4: 'size'}
+   # i = 0
+   # name_of_rows = {1: 'likes', 2: 'coms', 3: 'favs', 4: 'size'}
     for variable in variables:
         with open('main.tsv', 'a') as f:
             writer = csv.writer(f, delimiter='\t')
-            if i == 0:
-                writer.writerow((name_of_rows[1],
-                                 name_of_rows[2],
-                                 name_of_rows[3],
-                                 name_of_rows[4]))
-                i = 1
+           # if i == 0:
+            #    writer.writerow((name_of_rows[1],
+            #                     name_of_rows[2],
+           #                      name_of_rows[3],
+           #                      name_of_rows[4]))
+            #    i = 1
             writer.writerow((variable['likes'],
                              variable['comments'],
                              variable['favorite'],
                              variable['size']))
 
 
-link = 'https://dtf.ru'
+link = 'https://dtf.ru/'
 page = get_full_page(link)
 write_to_file(get_variables(page))
